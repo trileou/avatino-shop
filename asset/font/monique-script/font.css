@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'MoniqueScript-Regular';
+  src: url('MoniqueScript-Regular.eot');
+  src: url('MoniqueScript-Regular.eot?#iefix') format('embedded-opentype'),
+       url('MoniqueScript-Regular.svg#MoniqueScript-Regular') format('svg'),
+       url('MoniqueScript-Regular.ttf') format('truetype'),
+       url('MoniqueScript-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
