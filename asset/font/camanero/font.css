@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'CaramelloFree';
+  src: url('CaramelloFree.eot');
+  src: url('CaramelloFree.eot?#iefix') format('embedded-opentype'),
+       url('CaramelloFree.svg#CaramelloFree') format('svg'),
+       url('CaramelloFree.ttf') format('truetype'),
+       url('CaramelloFree.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
  */
 body {
+
 }
 
 /* header */
@@ -12,7 +13,7 @@ header {
 }
 
 .header-nav {
-  height: 130px;
+  height: 135px;
   background-color: rgba(245, 225, 237, 0.7) !important;
   position: absolute;
   width: 100%;
@@ -21,7 +22,7 @@ header {
 }
 
 .header-nav:hover {
-  background-color: rgba(245, 225, 237, 0.95) !important;
+  background-color: rgba(245, 225, 237, 0.9) !important;
   transition: background-color 0.8s ease;
 }
 
@@ -30,18 +31,30 @@ header {
   margin-right: auto;
 }
 
+.nav-menu a {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: 520;
+  font-size: 16px;
+  text-decoration: underline;
+  font-family: Josefin Sans,'Josefin Sans', sans-serif;
+  color: #444444;
+}
+
+
 .brand-logo-m {
   display: none;
 }
 
 .brand-logo,.brand-logo-m {
-  font-family: 'MoniqueScript-Regular';
-  font-size: 32px;
-  font-weight: bold;
-  width: 150px;
+  font-family: 'CaramelloFree' !important;
+  font-size: 52px !important;
+  font-weight: 580;
+  width: 200px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  text-decoration: unset !important;
 }
 
 /* carousel */
@@ -78,7 +91,7 @@ header {
   .header-nav {
     height:80px;
     background-color: #f5e1ed !important;
-    opacity: 0.95;
+    opacity: 0.9;
     position: fixed;
     top: 0;
   }
@@ -88,13 +101,50 @@ header {
     margin-top: 80px !important;
   }
 
-  .brand-logo {
-    display: none;
+  .nav-brand,.brand-logo {
+    display: none !important;
+    height: 0;
   }
   .brand-logo-m  {
     display: block;
-    font-size: 24px;
+    font-size: 2rem !important;
     margin-top: 20px;
+    width: 150px;
+    line-height: 1;
+    position: absolute;
+    left: 36vw;
+    color: rgba(0,0,0);
+  }
 
+  .navbar-collapse {
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    text-decoration: unset !important;
+    width: calc(100% - 40px) !important;
+    left: 20px;
+    position: absolute;
+    top: 70px;
+
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(122,122,122,0.4);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(122,122,122,0.4);
+    box-shadow: 2px 2px 2px 0px rgba(92, 61, 61, 0.4);
+  }
+
+  .nav-menu a {
+    font-family: Josefin Sans,'Josefin Sans',sans-serif !important;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000 !important;
+    letter-spacing: 1px;
+    text-decoration: unset !important;
+    border-style: solid;
+    border-width: 1px 0 0;
+    border-color: rgba(0, 0, 0, 0.06);
+    padding: 12px !important;
+  }
+
+  .nav-menu .active {
+    color: rgba(255, 185, 167) !important;
+    font-weight: 580;
   }
 }

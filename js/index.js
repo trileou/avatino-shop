@@ -38,3 +38,11 @@
 	});  
 	
 })(jQuery);
+
+
+
+$('#navbarCollapse').on('shown.bs.collapse', function () {
+	// do something…
+	// $('body').css('background-color', '#000');
+	// $('body').css('opacity', 0.5);
+})
